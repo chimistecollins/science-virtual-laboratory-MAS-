@@ -1,0 +1,209 @@
+*{ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{background-color: rgb(167, 202, 131);
+    background-size: cover;
+    overflow-x: hidden;
+    width: 100%;
+}
+    /* 3. The Media Query must wrap specific classes, not be inside them */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+#title{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.4em;
+}
+.navbar ul{
+    background-color:  rgb(22, 22, 72);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+    position: relative;
+    width:100%
+}
+.navbar li{
+    list-style: none;
+    position: relative;;
+}
+.navbar a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 28px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(1, 1, 33);
+    padding-block: 28px;
+}
+#Home .dropdown{
+    display: none;
+    position: absolute;
+}
+#Home:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#Home .dropdown{
+    display: none;
+    position: absolute;
+}
+#Home:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#Portals .dropdown{
+    display: none;
+    position: absolute;
+}
+#Portals:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#Virtuallab .dropdown{
+    display: none;
+    position: absolute;
+}
+#Virtuallab:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#E-Resources .dropdown{
+    display: none;
+    position: absolute;
+}
+#E-Resources:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#Timetables .dropdown{
+    display: none;
+    position: absolute;
+}
+#Timetables:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#CalenderofEvents .dropdown{
+    display: none;
+    position: absolute;
+}
+#CalenderofEvents:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+#Explore .dropdown{
+    display: none;
+    position: absolute;
+}
+#Explore:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+.dropdown ul{
+    background-color: rgb(22, 22, 216);
+    position: relative;
+    margin-top: 28px;
+     width: 150px;
+    max-height: 600px;
+    box-shadow: 5px 5px 9px;
+}
+.dropdown li{
+    list-style: none;
+}
+.dropdown li:hover a{
+    background-color: rgb(191, 83, 177);
+    padding: 0px;
+}
+.dropdown a{
+    display: block; 
+    font-size: 1.4rem;
+    padding:0px;
+    margin-top: 0px;
+    text-align: left;
+}
+.search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    margin-left: 85%;
+}
+aside{
+    float: left;
+    width: 23.5%;
+    margin-top: 10px;
+    margin-left: 28px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 380px;
+    h2{
+        padding: 19px 0px;
+        font-size: 1.6rem;
+    }
+    a{
+        color: rgb(56, 1, 1);
+        font-weight: bold;
+        white-space: nowrap;
+        font-size: 1.6rem;
+    }
+}
+section ul{
+    list-style: none;
+     margin-top: 10px;
+     padding-left: 20px;
+     padding-right: 13px;
+     width: 47%;
+     float: left;
+     display: flex;
+     flex-direction: column;
+     min-width: 680px;
+      p{
+        font-size: 1.7rem;
+        padding: 15px 0;
+        font-weight: 150;
+    }
+}
+#Chemistry a, #Biology a, #Physics a, #ChemistryVirtual a, #BiologyVirtual a, #PhysicsVirtual a, #Link1 a, #Link2 a, #Link3 a{
+    font-size: 1.37rem;
+    font-weight: bold;
+    color: rgb(56, 1, 1);
+}
+article ul{
+     margin-top: 10px;
+     width: 20%;
+     padding: 12px;
+     padding-right: 3px;
+     padding-left: 38px;
+     float: left;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     list-style: none;
+     white-space: none;
+     min-width: 300px;
+     margin-right: 3px;
+         a{
+        font-size: 1.5rem;
+        color: rgb(56, 1, 1);
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    h1{
+        font-size: 30px;
+        white-space: nowrap;
+    }
+}
